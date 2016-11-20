@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeterView">
+        <attr name="meter_min_value" format="float"/>
+        <attr name="meter_max_value" format="float"/>
+        <attr name="meter_logo" format="reference"/>
+        <attr name="meter_faceColor" format="color"/>
+        <attr name="meter_scaleColor" format="color"/>
+        <attr name="meter_rimColor" format="color"/>
+        <attr name="meter_valueColor" format="color"/>
+    </declare-styleable>
+</resources>

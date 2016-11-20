@@ -1,0 +1,38 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.antoniocappiello.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.gkravas'
+                artifactId 'meterview'
+
+                name 'MeterView'
+                description 'MeterView is a simple android meter component. It can handle exceeding values also by redrawing the whole scale.'
+                url 'https://github.com/gkravas/meterview'
+
+                licenses {
+                    license {
+                        name 'MIT'
+                        url 'https://opensource.org/licenses/MIT'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'gkravas'
+                        name 'George Kravas'
+                        email 'gkravas@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/gkravas/meterview.git'
+                    developerConnection 'https://github.com/gkravas/meterview.git'
+                    url 'https://github.com/gkravas/meterview'
+                }
+            }
+        }
+    }
+}

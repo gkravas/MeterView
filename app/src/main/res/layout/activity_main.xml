@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gkravas.meterviewexample.MainActivity">
+
+    <com.gkravas.meterview.MeterView
+        android:id="@+id/meter_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:meter_min_value="0"
+        app:meter_max_value="30"
+        app:meter_logo="@drawable/ic_android"
+        app:meter_faceColor="@color/colorMeterBackground"
+        app:meter_scaleColor="@color/colorMeterScale"
+        app:meter_rimColor="@color/colorMeterRim"
+        app:meter_valueColor="@android:color/holo_red_dark"/>
+</RelativeLayout>
