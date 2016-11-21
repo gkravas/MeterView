@@ -21,16 +21,16 @@ artifacts {
     archives sourcesJar
 }
 
-// Bintray
 Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStreamtray {
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+bintray {
     user = properties.getProperty("bintray.user")
     key = properties.getProperty("bintray.apikey")
 
     configurations = ['archives']
     pkg {
-        repo = 'maven'
-        name = 'meterview'
+        repo = 'android'
+        name = 'MeterView'
         desc = 'MeterView is a simple android meter component. It can handle exceeding values also by redrawing the whole scale.'
         websiteUrl = 'https://github.com/gkravas/meterview'
         vcsUrl = 'https://github.com/gkravas/meterview.git'
