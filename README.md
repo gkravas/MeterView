@@ -1,3 +1,5 @@
+ [ ![Download](https://api.bintray.com/packages/gkravas/android/MeterView/images/download.svg) ](https://bintray.com/gkravas/android/MeterView/_latestVersion)
+
 # MeterView
 MeterView is a simple android meter component. It can handle exceeding values also by redrawing the whole scale.
 
@@ -17,6 +19,9 @@ MeterView is a simple android meter component. It can handle exceeding values al
 Download
 ------
 ####Gradle:
+
+Artifact can be found via jCenter
+
 ```groovy
 compile 'com.gkravas:meterview:1.0.0'
 ```
