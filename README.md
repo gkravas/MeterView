@@ -23,5 +23,5 @@ Download
 Artifact can be found via jCenter
 
 ```groovy
-compile 'com.gkravas:meterview:1.0.0'
+compile 'com.gkravas.meterview:meterview:1.0.0@aar'
 ```
